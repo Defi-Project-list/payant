@@ -1,0 +1,49 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Cooldown",
+  "sourceName": "contracts/cooldown/Cooldown.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "cooldownDuration",
+          "type": "uint256"
+        }
+      ],
+      "name": "CooldownInitialize",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "caller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "cooldown",
+          "type": "uint256"
+        }
+      ],
+      "name": "CooldownTriggered",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212209dd03b619017f1de6d3e228b9f578533ecad8998c47a74ebf9173f54d9f3c8bb64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212209dd03b619017f1de6d3e228b9f578533ecad8998c47a74ebf9173f54d9f3c8bb64736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

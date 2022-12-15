@@ -1,0 +1,59 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "StandardInterpreter",
+  "sourceName": "contracts/interpreter/run/StandardInterpreter.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "interpreterIntegrity_",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "id",
+          "type": "uint256"
+        },
+        {
+          "components": [
+            {
+              "internalType": "bytes[]",
+              "name": "sources",
+              "type": "bytes[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "constants",
+              "type": "uint256[]"
+            }
+          ],
+          "indexed": false,
+          "internalType": "struct StateConfig",
+          "name": "config",
+          "type": "tuple"
+        }
+      ],
+      "name": "SaveInterpreterState",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x60c0604052348015600f57600080fd5b506040516100ca3803806100ca833981016040819052602c916040565b306080526001600160a01b031660a052606e565b600060208284031215605157600080fd5b81516001600160a01b0381168114606757600080fd5b9392505050565b60805160a051603f61008b6000396000505060005050603f6000f3fe6080604052600080fdfea2646970667358221220236a15a0af57f0ab08cdb01fe385a5ac750d6f776e863b28a4da100e7700625764736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220236a15a0af57f0ab08cdb01fe385a5ac750d6f776e863b28a4da100e7700625764736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

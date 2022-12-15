@@ -1,0 +1,45 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "RainInterpreterIntegrity",
+  "sourceName": "contracts/interpreter/deploy/RainInterpreterIntegrity.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes[]",
+          "name": "sources_",
+          "type": "bytes[]"
+        },
+        {
+          "internalType": "uint256",
+          "name": "constantsLength_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "minStackOutputs_",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "ensureIntegrity",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "contextReads_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "stackLength_",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
